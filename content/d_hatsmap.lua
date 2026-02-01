@@ -88,6 +88,8 @@ local HatNameDatabase = {
 	{Match = "Accessory (LLEG)", Offset = CFrame.Angles(0, 0, 1.57), For = "LeftLeg"},
 	{Match = "Accessory (RLEG)", Offset = CFrame.Angles(0, 0, 1.57), For = "RightLeg"},
 	{Match = "Accessory (TorsoNoob)", Offset = CFrame.identity, For = "Torso"},
+	{Match = "sphereThebig", Offset = CFrame.new(1.4, 0.8, -1.5) * CFrame.Angles(0, 90, math.rad(0)), For = "Torso"},
+	{Match = "sphereThebigGray", Offset = CFrame.new(1.4, 0.8, -1.5) * CFrame.Angles(0, 90, math.rad(0)), For = "Torso"},
 	{Match = "Accessory (TorsoWhite)", Offset = CFrame.identity, For = "Torso"},
 	{Match = "Accessory (Torso)", Offset = CFrame.identity, For = "Torso"},
 	{Match = "Accessory (LArmNoob)", Offset = CFrame.Angles(0, 0, 1.57), For = "LeftArm"},
