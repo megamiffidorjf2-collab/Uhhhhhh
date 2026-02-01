@@ -1,6 +1,6 @@
 local HatMeshDatabase = {
 	-- Heads
-	{MeshId = "11601535857", TextureId = "", Offset = CFrame.Angles(0, 3.14, 0), For = "Head"},
+	{MeshId = "14119894735", TextureId = "", Offset = CFrame.new(0, -0.2, 0), For = "Head"},
 	{MeshId = "95548361258421", TextureId = "", Offset = CFrame.identity, For = "Head"},
 
 	-- Arms
@@ -31,6 +31,8 @@ local HatMeshDatabase = {
 	{MeshId = "4819720316", TextureId = "4819722776", Offset = CFrame.Angles(0, 0, 0.26), For = "Torso"},
 	{MeshId = "126825022897778", TextureId = "", Offset = CFrame.identity, For = "Torso"},
 	{MeshId = "139792224823925", TextureId = "", Offset = CFrame.identity, For = "Torso"},
+	{MeshId = "12520500398", TextureId = "", Offset = CFrame.new(-1.4, 0.8, -1.5) * CFrame.Angles(0, 90, math.rad(0)), For = "Torso"},
+	{MeshId = "13455103072", TextureId = "", Offset = CFrame.new(1.4, 0.8, -1.5) * CFrame.Angles(0, 90, math.rad(0)), For = "Torso"},
 
 	-- Fur body + R15 Arms + Smiley Legs Rig
 	{MeshId = "13953154391", TextureId = "", Offset = CFrame.identity, For = "Head"},
